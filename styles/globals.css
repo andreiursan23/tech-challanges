@@ -28,7 +28,7 @@ a {
 .product-box {
   width: 314.43px;
   height: 527.29px;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
   margin: 8.08px;
 }
@@ -44,6 +44,17 @@ a {
   margin: 0 auto;
 }
 
+.brand {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 8px;
+  background: rgb(255, 136, 96);
+  border-radius: 2px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  padding: 5px;
+}
+
 .product-details {
   margin: 4.81px 0 0 15.02px;
 }
@@ -54,7 +65,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  margin: 0 0 5.66px 0;
+  margin: 0 5.66px 5.66px 0;
 }
 
 .product-sizes {
@@ -107,14 +118,14 @@ a {
 
 button {
   font-family: "Poppins", sans-serif;
-  border: #c7c7c7 1px solid;
+  border: #c7c7c7 2px solid;
   color: rgb(105, 105, 105);
   padding: 5px;
   border-radius: 5px;
 }
 
 button:hover {
-  border: #fff 1px solid;
+  border: #fff 2px solid;
 }
 
 input {

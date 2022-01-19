@@ -12,6 +12,9 @@ export default function ProductCard({ product }) {
             layout="fill"
             objectFit="contain"
           />
+          <div className="brand">
+            <p>{product.brand}</p>
+          </div>
         </div>
       </div>
 
