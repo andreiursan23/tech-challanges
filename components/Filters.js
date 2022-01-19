@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import SizeFilter from "../components/SizeFilter";
 import BrandFilter from "./BrandFilter";
 import CategoryFilter from "./CategoryFilter";
