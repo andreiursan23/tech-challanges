@@ -1,9 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #e5e5e5;
 }
 
 a {
@@ -13,4 +19,105 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.all-products-box {
+  margin: 23.84px 50.84px;
+}
+
+.product-box {
+  width: 314.43px;
+  height: 527.29px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  margin: 8.08px;
+}
+
+.img-card {
+  padding-top: 16.61px;
+}
+
+.img-container {
+  position: relative;
+  height: 390.32px;
+  width: 292.74px;
+  margin: 0 auto;
+}
+
+.product-details {
+  margin: 4.81px 0 0 15.02px;
+}
+
+.product-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 5.66px 0;
+}
+
+.product-sizes {
+  margin: 0 0 5.66px 0;
+}
+
+.product-size-box {
+  border: 1px solid #dcdae4;
+  border-radius: 2px;
+  margin: 0 6.65px 0 0;
+  padding: 0 2px;
+  font-family: "Roboto", sans-serif;
+  min-width: 23.81px;
+  height: 22.58px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.product-size-box p {
+  margin: 4.29px 0 0 0;
+}
+
+.product-price {
+  color: #ff6f40;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.filter-container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.filter-title {
+  font-family: "Poppins", sans-serif;
+  padding: 0 0 2px 2px;
+}
+
+.filter {
+  font-family: "Poppins", sans-serif;
+  margin: 0 20px 10px 0;
+  border: 1px solid #ff6f40;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  border: #c7c7c7 1px solid;
+  color: rgb(105, 105, 105);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: #fff 1px solid;
+}
+
+input {
+  max-width: 50px;
+  margin: 0 0 0 10px;
 }
